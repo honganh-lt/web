@@ -1,0 +1,361 @@
+li{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*********************** HEADER *****************************************/
+.header-top h1{
+    flex: 1;
+    margin: 20px;
+    padding: 10px 0 0 10px;
+}
+.header-top h1 a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-top ul{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top ul li {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-top ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top button{
+    display: block;
+    position: relative;
+    margin: 28px;
+    width: 90px;
+    height: 40px;
+    padding: 10px ;
+    background-color: black;
+    color: white;
+    top: -1px;
+    left: 0px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#post{
+    width: 1470px;
+    height: 820px;
+    background: black;
+    float: left;
+    position: absolute;
+    opacity: 0.3;
+}
+#up{
+    width: 900px;
+    height: 170px;
+    background:white;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.content-top h1{
+    position: relative;
+    top: -100px;
+    left: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-top h1 p{
+    position: relative;
+    top: -47px;
+    left: 850px;
+    font-size: 15px;
+}
+.content-top h1 span{
+    position: relative;
+    top: -70px;
+    left: 860px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-top h2{
+    position: relative;
+    top: -180px;
+    left: 250px;
+    color: gray;
+    opacity: 0.4;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-top h3{
+    position: relative;
+    top: -170px;
+    left: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-top h3 p{
+    position: relative;
+    top: -43px;
+    left: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-top h3 button{
+    position: relative;
+    top: -43px;
+    left: 0px;
+    width: 900px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**/
+#sidebar{
+    width: 900px;
+    height: 570px;
+    background:white;
+    position: relative;
+    top: -170px;
+    left: 100px;
+}
+.content-mid h1{
+    position: relative;
+    top: -720px;
+    left: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-mid h1 p{
+    position: relative;
+    top: -30px;
+    left: 840px;
+}
+.content-mid h1 span{
+    position: relative;
+    top: -54px;
+    left: 850px;
+    color: gray;
+    font-size: 13px;
+}
+.content-mid h2{
+    position: relative;
+    top: -780px;
+    left: 250px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-mid h3{
+    position: relative;
+    top: -750px;
+    left: 250px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-mid h3 p{
+    position: relative;
+    top: -45px;
+    left: 90px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-mid h3 button{
+    position: relative;
+    top: -40px;
+    left: 0px;
+    width: 900px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-mid h4{
+    position: relative;
+    top: -775px;
+    left: 250px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-mid h4 p{
+    position: relative;
+    top: -56px;
+    left: 140px;
+    font-size: 15px;
+}
+.content-mid h4 button{
+    position: relative;
+    top: -40px;
+    left: 0px;
+    width: 900px;
+    height: 30px;
+}
+
+
+.content-down h1{
+    position: relative;
+    top: -810px;
+    left: 250px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-down h1 p{
+    position: relative;
+    top: -56px;
+    left: 40px;
+    font-size: 15px;
+}
+.content-down h1 button{
+    position: relative;
+    top: -45px;
+    left: 0px;
+    width: 200px;
+    height: 30px;
+}
+
+.content-down h2{
+    position: relative;
+    top: -960px;
+    left: 550px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-down h2 p{
+    position: relative;
+    top: -56px;
+    left: 55px;
+    font-size: 15px;
+}
+.content-down h2 button{
+    position: relative;
+    top: 55px;
+    left: -130px;
+    width: 200px;
+    height: 30px;
+}
+
+.content-down h3{
+    position: relative;
+    top: -1005px;
+    left: 900px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-down h3 p{
+    position: relative;
+    top: -56px;
+    left: 140px;
+    font-size: 15px;
+}
+.content-down h3 button{
+    position: relative;
+    top: -43px;
+    left: 1px;
+    width: 200px;
+    height: 30px;
+}
+
+.content-down h4{
+    position: relative;
+    top: -1040px;
+    left: 250px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-down h4 p{
+    position: relative;
+    top: -56px;
+    left: 80px;
+    font-size: 15px;
+}
+
+.content-down h5 button{
+    position: relative;
+    top: -1100px;
+    left: 250px;
+    width: 900px;
+    height: 50px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#right{
+    width: 290px;
+    height: 230px;
+    background:rgb(245, 242, 242);
+    position: relative;
+    top: -1887px;
+    left: 1100px;
+}
+.footer-top h1{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-top h2{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    color: gray;
+}
+.footer-down h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-down h1 span{
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+.footer-down h2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-down h2 span{
+    position: relative;
+    top: 0px;
+    left: 180px;
+}
+.footer button{
+    position: relative;
+    top: -1860px;
+    left: 1100px;
+    width: 290px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-3</title>
+    <link rel="stylesheet" href="sky.css">
+</head>
+<body>
+    <div class="card">
+        <h3 class="heading">Saved!</h3>
+        <p class="desc">looks like you go a great idea.</p>
+        <div class="btn">Ok, cool</div>
+    </div>
+
+
+
+<!--BEM-->
+    <div class="card card--success">
+        <h3 class="card__heading">Saved!</h3>
+        <p class="card__desc">looks k=like you go a great idea.</p>
+        <div class="card__btn">OK, cool</div>
+    </div>
+    <div class="card card--error">
+        <h3 class="card__heading">Saved!</h3>
+        <p class="card__desc">looks k=like you go a great idea.</p>
+        <div class="card__btn card__btn--size--s">OK, cool</div>
+    </div>
+</body>
+</html>
+<!--
+#BEM trong CSS
+- là tiêu chuẩn đặt tên class khi viêt CSS
+
+## Ý nghĩa:
+    - Viết tắt cảu : Block Element Modifier
+    - Block: khối (cha)
+    - Element: Thành phần trong khối (thẻ con)
+----- tạo khối cơ bản 
+    - Modifier: Bổ sung ý nghĩa cho 'Block' hoặc Element 
+----sửa màu kích thước
+
+## Tại sao phải dung BEM
+    - Mỗi người đặt một kiểu
+    - Members đặt class trùng nhau, CSS đè lên nhau
+
+## Cú pháp
+    - .block (class)
+    - .block__element 
+    - .block--modifier (bổ sung ý nghía cool thành công là màu xanh ko thành công là màu đỏ)
+    - .block__element--modifier
+
+## tính ứng dụng
+    -xây dụng layout website (bố cục của website )
+    -Xay dựng thành phần website 
+
+## Ưu điểm 
+    - Tính rõ ràng 
+    - Tái hợp sử dụng dễ dàng 
+    - giúp cả team làm việc với nhau dễ dàng
+    - tính module, không lo CSS của class này ảnh hưởng lên CSS của class khác
+##Khi nào sự dụng BEM là phù hợp
+    - Dự án nhiều Members
+    - Dự án lớn, số lượng pages nhiều hoặc số lượng các thành phần trên 
+    giao diện nhiều
+
+## Thực hành
+    - làm button
+        - Enabled: Pointer, hover effect : nút bấm vào được
+        - Disabled: Arrow, no effect : nút không được phép bấm vào
+    - làm mesage
+    -làm 1 thành phần trên website 
+
+-->

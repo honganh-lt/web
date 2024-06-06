@@ -1,0 +1,163 @@
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-top h1{
+    flex: 1;
+    margin: 20px;
+    padding: 10px 0 0 10px;
+}
+.header-top h1 a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-top ul{
+    display: flex;
+    position: relative;
+    margin: 30px;
+    padding: 10px 0 0 20px;
+}
+.header-top ul li {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-top ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top button{
+    display: block;
+    position: relative;
+    margin: 28px;
+    width: 90px;
+    height: 40px;
+    padding: 10px ;
+    background-color: black;
+    color: white;
+}
+
+.content{
+   
+    margin: 20px;
+}
+.content img{
+    position: relative;
+    width: 800px;
+    height: 490px;
+}
+.content h1{
+    position: relative;
+    top: -490px;
+    left: 830px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.content h1 span{
+    color: gray;
+    font-size: 25px;
+}
+.content p{
+    position: relative;
+    top: -530px;
+    left: 830px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h6{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    color: gray;
+}
+.content  h2{
+    position: relative;
+    top: -540px;
+    left: 830px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h2 span{
+    position: absolute;
+    left: 300px;
+}
+.content h3{
+    position: relative;
+    top: -560px;
+    left: 830px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h3 span{
+    position: absolute;
+    left: 400px;
+}
+.content  h4{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  button{
+    position: relative;
+    top: -560px;
+    left: 830px;
+    width: 440px;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h5{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    width: 440px;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer  button{
+    position: relative;
+    top: -570px;
+    left: 856px;
+    width: 70px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1  button{
+    position: relative;
+    top: -600px;
+    left: 960px;
+    width: 150px;
+    height: 30px;
+    text-align:center;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}

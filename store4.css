@@ -1,0 +1,356 @@
+
+li{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*********************** HEADER *****************************************/
+.header-top h1{
+    flex: 1;
+    margin: 20px;
+    padding: 10px 0 0 10px;
+}
+.header-top h1 a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-top ul{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top ul li {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-top ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top button{
+    display: block;
+    position: relative;
+    margin: 28px;
+    width: 90px;
+    height: 40px;
+    padding: 10px ;
+    background-color: black;
+    color: white;
+    top: -1px;
+    left: 0px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/************************* CONTENT ******************************************/
+.content{
+   
+    margin: 20px;
+}
+.content img{
+    position: relative;
+    width: 800px;
+    height: 490px;
+}
+.content h1{
+    position: relative;
+    top: -490px;
+    left: 830px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.content h1 span{
+    color: gray;
+    font-size: 25px;
+}
+.content p{
+    position: relative;
+    top: -530px;
+    left: 830px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h6{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    color: gray;
+}
+.content  h2{
+    position: relative;
+    top: -540px;
+    left: 830px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h2 span{
+    position: absolute;
+    left: 300px;
+}
+.content h3{
+    position: relative;
+    top: -560px;
+    left: 830px;
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h3 span{
+    position: absolute;
+    left: 400px;
+}
+.content  h4{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  button{
+    position: relative;
+    top: -560px;
+    left: 830px;
+    width: 440px;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content  h5{
+    position: relative;
+    top: -550px;
+    left: 830px;
+    width: 440px;
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/************************** FOOTER ********************************************/
+.footer  button{
+    position: relative;
+    top: -570px;
+    left: 856px;
+    width: 70px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1  button{
+    position: relative;
+    top: -600px;
+    left: 960px;
+    width: 150px;
+    height: 30px;
+    text-align:center;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post{
+    width: 990px;
+    height: 720px;
+    background: black;
+    float: left;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.sidebar{
+    width: 990px;
+    height: 720px;
+    background: black;
+    float: right;
+    position: absolute;
+    opacity: 0.7;
+}
+
+/*****************WHITE - RIGHT******************************/
+
+.white{
+    position: fixed;
+    width: 490px;
+    height: 740px;
+    top: 8px;
+    left: 996px;
+    background: white;
+    float:right;
+}
+.right h1{
+    position: relative;
+    top: -1160px;
+    left: 1000px;
+    width: 150px;
+    height: 30px;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right h1 span{
+    position: relative;
+    left: 320px;
+}
+.img1 img{
+    position: relative;
+    top: -1120px;
+    left: 1000px;
+    width: 110px;
+    height: 50px;
+}
+.img1 h2{
+    position: relative;
+    top: -1190px;
+    left: 1150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1 h2 span{
+    position: relative;
+    font-size: 15px; 
+    color: gray;
+    line-height: 20px;
+}
+.img1 h2 p{
+    position: relative;
+    top: -90px;
+    left: 290px;
+    font-size: 15px; 
+}
+
+/**/
+.img2 img{
+    position: relative;
+    top: -1180px;
+    left: 1000px;
+    width: 110px;
+    height: 50px;
+}
+.img2 h3{
+    position: relative;
+    top: -1255px;
+    left: 1150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img2 h3 span{
+    position: relative;
+    font-size: 15px; 
+    color: gray;
+    
+    line-height: 20px;
+}
+.img2 h3 p{
+    position: relative;
+    top: -90px;
+    left: 290px;
+    font-size: 15px; 
+}
+
+/**/
+.img3 img{
+    position: relative;
+    top: -1245px;
+    left: 1000px;
+    width: 110px;
+    height: 50px;
+}
+.img3 h4{
+    position: relative;
+    top: -1320px;
+    left: 1150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img3 h4 span{
+    position: relative;
+    font-size: 15px; 
+    color: gray;
+    line-height: 20px;
+}
+.img3 h4 p{
+    position: relative;
+    top: -70px;
+    left: 290px;
+    font-size: 15px; 
+}
+
+/**/
+.img4 img{
+    position: relative;
+    top: -1310px;
+    left: 1000px;
+    width: 110px;
+    height: 50px;
+}
+.img4 h5{
+    position: relative;
+    top: -1394px;
+    left: 1150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img4 h5 span{
+    position: relative;
+    font-size: 15px; 
+    color: gray;
+    line-height: 20px;
+}
+.img4 h5 p{
+    position: relative;
+    top: -80px;
+    left: 290px;
+    font-size: 15px; 
+}
+
+/********************** DOWN *****************************/
+.down h1{
+    position: relative;
+    top: -1350px;
+    left: 1000px;
+    font-size: 15px;
+}
+.down h1 span{
+    position: relative;
+    top: 1px;
+    left: 350px;
+    font-size: 15px;
+}
+.down button{
+    position: relative;
+    color: black;
+    top: -1350px;
+    left: 1000px;
+    width: 460px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

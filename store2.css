@@ -1,0 +1,130 @@
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-top h1{
+    flex: 1;
+    margin: 20px;
+    padding: 10px 0 0 10px;
+}
+.header-top h1 a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-top ul{
+    display: flex;
+    position: relative;
+    margin: 30px;
+    padding: 10px 0 0 20px;
+}
+.header-top ul li {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header-top ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top button{
+    display: block;
+    position: relative;
+    margin: 28px;
+    width: 90px;
+    height: 40px;
+    padding: 10px ;
+    background-color: black;
+    color: white;
+}
+
+.content h1{
+    position: relative;
+    left: 540px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: -700;
+}
+.content ul{
+    display: flex;
+    position: relative;
+    left: 420px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content ul li{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+}
+.content ul li span{
+    color: black;
+    font-weight: bolder;
+}
+.img{
+    display: flex;
+    position: relative;
+    bottom: -60px;
+    margin-left: 130px;
+    margin-right: 150px;
+}
+.img1{
+    position: relative;
+    margin-left: -20px;
+    margin-right: 50px;
+}
+.img2{
+    position: relative;
+    margin-left: -10px;
+    margin-right: 45px;
+}
+.img3{
+    position: relative;
+    margin-left: -50x;
+    margin-right: 50px;
+}
+.content h2{
+    position: relative;
+    color: #ffffff;
+    top: -20px;
+    left: 130px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content h2 span{
+    position: relative;
+    color: gray;
+    
+}
+.content h3{
+    position: relative;
+    color: #ffffff;
+    top: -70px;
+    left: 550px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content h3 span{
+    position: relative;
+    color: gray;
+    
+}
+.content h4{
+    position: relative;
+    color: #ffffff;
+    top: -115px;
+    left: 990px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content h4 span{
+    position: relative;
+    color: gray;
+    
+}

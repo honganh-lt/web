@@ -1,0 +1,159 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between; /*Căn ngang*/
+    align-items: center;/*căn dọc*/
+}
+.logo>img{
+    width: 65px;
+
+}
+.menu>li{
+    display: inline-block;
+    margin-right: 30px ;
+}
+.menu>li>a{
+    text-decoration: none;
+    text-transform: uppercase; /*tạo chữ hoa, chữ thường*/
+    font-size: 12px;
+    color: #222222;
+    font-weight: 700;
+    opacity: 0.6;
+    transition: opacity 200ms ease;/*chuyển trạng thái sang dần lên: từ 0.6 dần dần biến đổi sang 1*/
+}
+.menu>li:hover>a{ /*hover -- nổi sáng*/
+    opacity: 0.9;
+}
+.menu>li:last-child{
+    background-color: #1a1b1f;
+    padding: 12px 25px;
+}
+.menu>li:last-child>a{ /*last-child--?*/
+    color: #fff;
+    opacity: 1;
+    letter-spacing: 2px; /*khoảng cách giữa hai kí hiệu*/
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    background-image: url(store1.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    text-align: center;
+   /* padding-top: 150px;*/
+}
+#banner h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+#banner p{
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#banner a{
+    display: inline-block;
+    padding: 16px 35px;
+    background-color: #fff;
+    color: #202020;
+    font-size:14px ;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+#banner a:hover {
+    background-color: #eee;
+    /*color:lightsalmon;*/
+}
+
+.intro-head{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    left: 70px;
+}
+.intro-head>h2{
+    font-size: 44px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.intro-head>p{
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height: 26px;
+}
+
+.intro-content{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+.intro-content>p{
+    color: #1a1b1f;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.gap{
+    width: 50px; /*tạo khoảng trống html*/
+    flex-shrink: 0;
+}
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.product-list>li{
+    height: 620px;
+    background-image: url(anh1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 30%;
+    list-style: none;
+}
+.product-list>li:first-child{
+    background-image: url(anh2.jpg);
+}
+.product-list>li:last-child{
+    background-image: url(anh3.jpg);
+}
+
+/***********************************************/
+.products-list>li>a {
+    position:absolute;
+    bottom: 50px;
+    left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.subscript{
+    background-color: #f4f4f4;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.footer{
+    max-width: 1024px;
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+ ul {
+ display: flex;
+    align-items: center;
+}
+   

@@ -1,0 +1,204 @@
+:root{
+    --main-top-font: 'Cabin Condensed', sans-serif;
+    --main-font: 'Roboto Slab', serif;
+}
+
+*{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    background-image:url("https://mega.com.vn/media/news/1973_hinh_nen_xanh_la_cay_cho_may_tinh__43_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    padding: 12px 0;
+    align-items: center;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    transition: all 0.6s ease;
+}/*
+.top .top-img{
+    position: fixed;
+    content: "";
+    width: 900%;
+    height: 95%;
+    background-color: black;
+    opacity: 0.1;
+}*/
+
+.top-logo{
+    flex: 1;
+}
+.top-menu-items{
+    display: flex;
+    flex: 3;
+}
+.top-menu{
+    display: flex;
+}
+.top-menu-items .top-menu-search{
+    font-family: var(--main-top-font);
+    padding: 0px;
+    display: block;
+    justify-content: center;
+}
+.top-menu-items .top-menu-search form input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px ;
+}
+
+.top-menu-items .top-menu-item{
+    font-family: var(--main-top-font);
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;/**/
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;/**/
+    
+}
+.top-menu-items .top-menu-item::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    bottom: -50%;
+}
+.top-menu-items .top-menu-item:nth-child(3){
+    color: #273c75;
+}
+.top-menu-items .top-menu-item button{
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #dcdde1;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+.top-menu-items .top-menu-item button:hover{
+    background-color: #c23616;
+}
+
+.top-menu-items .top-menu ul{
+    display: flex;
+}
+.top-menu-items .top-menu ul li{
+    margin-left: 12px;
+    position: relative;
+}/*
+.top-menu-items .top-menu ul li::after{
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -2px;
+    height: 4px;
+    width: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #c23616;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+
+}*/
+.top-menu-items .top-menu ul li:hover::after{
+    width: 100%;
+}
+.top-menu-items .top-menu li img{
+    display: flex;
+    cursor: pointer;
+}
+.top-menu-items .top-menu li a{
+    font-family: var(--main-font);
+    color: #d63031;
+    font-weight: bolder;
+}
+
+
+/***********************************/
+.products{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.products{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.products {
+    width: 100%;
+    text-decoration: none;
+    color: #eb5757;
+    background-image: url(/acme06.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 15px;
+    min-width: 380px;
+    border-radius: 5px;
+}
+.products div:first-child{
+    background-image: url(/acme07.jpg);
+}
+.products div:last-child{
+    background-image: url(/acme05.jpg);
+}
+.products div a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #222;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.products div a p:last-child{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.products div a:last-child{
+    position: relative;
+    left: 130px;
+    padding: 5px 25px;
+   /* border: 1px solid #eb5757;*/
+    border-radius: 5px;
+    background-color: #eb5757;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.products div a p span{
+    color: #eb5757;
+    text-decoration: line-through;
+}
+.products div a:hover{
+    background-color: #222;
+}

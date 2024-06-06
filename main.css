@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Besley:ital@1&family=Graduate&display=swap');
+:root{
+    --main-text-font: 'Aleo', serif;
+    --logo-text-font:'Besley', serif;
+    --main-color:rgb(242,111,33);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1024px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2013/08/20/15/47/poppies-174276_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+
+.bg-img{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+}
+
+.top{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.header-top{
+    justify-content: space-between;
+    padding: 12px 0;
+    align-items: center;
+}
+
+.header-top p{
+    font-family: var(--logo-text-font);
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: var(--main-color) ;
+    
+}
+.header-top p span{
+    font-size: 10px;
+}
+
+.header-top ul{
+    display: flex;
+}
+.header-top ul li{
+    margin-left: 12px;
+    position: relative;
+}
+
+.header-top ul li::after{
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -2px;
+    height: 4px;
+    width: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var( --main-color);
+    border-radius: 5px;
+   transition: all 0.5s ease;
+}
+
+.header-top ul li:hover::after{
+    width: 100%;
+}
+.header-top ul li a{
+    font-family: var(--main-text-font);
+    color: rgb(148, 27, 27);
+    font-weight: bold;
+}
+
+
+
+.header-text{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    transform: translate(50%,70%);
+    max-width: 800px;
+    min-width: 500px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+/*
+.header-text h1{
+    font-family: var(--main-text-font);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.header-text p{
+    font-family: var(--main-text-font);
+    color: white;
+}
+
+.header-text button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition:all 0.5s ease;
+}
+.header-text button:hover{
+    background-color: var(--main-color);
+}
+
+

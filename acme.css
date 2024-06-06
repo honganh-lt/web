@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header{
+    background-color: #eb5757;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu>li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.menu>li>a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+/***/
+.menu>li:hover{
+    background-color: #222;
+}
+.cart{
+    background-color: #222;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 6px !important;
+}
+.cart>a>img{
+    width: 20px;
+}
+
+
+.cart>h1{
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    color: black;
+    left: 30px;
+    
+   
+}
+
+.banner{
+    min-height: 550px;
+    background-image:linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(/acmenen.jpg);
+    background-position: 0% 0%, 50% 50%;
+    background-size: auto, cover;
+}
+.banner-wrapper{
+    width: 33%; /*kích thước khung chứa chữ*/
+    padding-top: 120px;
+    
+}
+.banner-wrapper>h1{
+    font-size: 62px;
+    line-height: 1.2;
+    color: #f9f9f9;
+    font-weight: bold;
+    margin: 0; /*khoản h cánh giữa câc h1->h6*/
+
+}
+.banner-wrapper>p{
+    font-size: 18px;
+    color: #f9f9f9;
+}
+
+.banner-wrapper>a{
+    padding: 5px 25px;
+    border-radius: 5px ;
+    font-weight: 700;
+    color: #f9f9f9;
+    text-decoration: none;
+    border:  1px solid #f9f9f9;
+    transition: backgrouund-color 300ms ease;
+}
+
+.banner-wrapper>a:hover{
+    color: #222;
+    background-color: #f9f9f9;
+}
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.third-row>div>div{
+    text-transform: uppercase;
+}
+.third-row>div>h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+}
+.third-row>p{
+    width: 45%;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.fourth-row{
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-row>div{
+    width: 30%;
+}
+.spuare{
+    position: relative;
+    background-color: #222;
+    min-height: 350px;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.spuare>div{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    left: 30px;
+    top: 20px;
+}
+.spuare>img{
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
+.row1 p{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: Sen, sans-serif;
+}
+.spuare>p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.fourth-row>div:first-child .spuare>img{
+    right: -70px;
+    bottom: -70px;
+}
+.fourth-row>div:last-child .spuare>img{
+    right: -30px;
+    bottom: -100px;
+}
+
+.safe-section{
+    margin-top: 50px;
+    height: 550px;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url(/acme04.jpg);
+    background-position: 0% 0%, 50% 50%;
+    background-size: auto, cover;
+}
+.safe-section>div{
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.safe-wrapper{  
+    width: 50%;
+    text-align: right;
+    color: #f9f9f9;
+}
+.safe-wrapper>h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.safe-wrapper>p{
+    position: relative;
+    width: 85%;
+    margin-bottom: 25px;
+    color: #f9f9f9;
+    font-size: 18px;
+    left: 90px;
+    text-transform: capitalize;
+}
+.safe-wrapper>a{
+    margin-right: 10px;
+    border-color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #222;
+    padding: 5px 25px;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.safe-wrapper>a:hover{
+    background-color: #eb5757;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container div{
+    text-transform: uppercase;
+}
+.container h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.img2{
+    min-width: 380px;
+    min-height: 350px;
+    background-image: url(/acme06.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.img1{
+    min-width: 380px;
+    min-height: 350px;
+    background-image: url(/acme07.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.img3{
+    min-width: 380px;
+    min-height: 350px;
+    background-image: url(/acme05.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.products{
+   display: flex;
+    justify-content:space-between ;
+    width: 100%;
+}
+.product a{
+    width: 100%;
+    text-decoration: none;
+    max-width: 100%;
+    display: inline-block;
+}
+.product a p{
+    color: #222;
+    font-size: 15px ;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: 15px;
+   padding-bottom: 0px;
+   border-bottom: 1px none rgba(34, 34, 34, 0.08);
+
+}
+.product a p span{
+    color: #eb5757;
+    text-decoration: line-through;
+    font-size: 15px ;
+   font-weight: 400;
+   text-align: center;
+}
+
+.detail a{
+    position: relative;
+    text-align: center;
+    width: 50px;
+    left: 140px;
+    padding: 5px 25px;
+    border: 0px solid #eb5757;
+    background-color: #eb5757;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    line-height: inherit;
+}
+
+.detail a:hover{
+    background-color: #222;
+}
+
+
+/**************************************/
+.shop-button a{
+    position: relative;
+    text-decoration: none;
+    left: 630px;
+    background-color: #222;
+    padding: 5px 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    line-height: inherit;
+}
+.shop-button a:hover{
+    background-color: #eb5757;
+}
+
+.shop-section{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.shop-wrapper{
+    position: relative;
+    display: flex;
+    min-height: 500px;
+    justify-content: flex-end;
+}
+.shop-left{
+    position: absolute;
+    left: 0%;
+    top: 6%;
+    right: auto;
+    bottom: 0%;
+    width: 30%;
+    height: 0px;
+    min-height: 440px;
+    border-radius: 5px;
+    background-image: url(/acme08.jpg);
+    background-position: 69% 80%;
+    background-size: 270%;
+}
+.shop-right{
+    display: flex;
+    width: 80%;
+    padding: 45px;
+    justify-content: flex-end;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f9f9f9;
+    
+}
+.shop-content{
+    width: 55%;
+    padding-right: 145px;
+    padding-left: 145px;
+}
+.shop-content h2{
+    margin-top: 0px;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.shop-content p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+
+}
+.shop-content div{
+    display: block;
+}
+.shop-content div strong{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color:black;
+}
+
+footer>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.social-links>li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-links>li>a img{
+    width: 30px;
+}
+.social-links>li:hover{
+    opacity: 0.7;
+}

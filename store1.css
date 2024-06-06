@@ -1,0 +1,94 @@
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}/*
+a{
+    text-decoration: none;
+}*/
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-top h1 {
+    flex: 1.3;
+    padding: 10px 0 0px 10px ;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-top h1 a{
+   color: black;
+}
+.header-top ul {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px 0 0px 10px ;
+    margin: 10px;
+    right: 10px;
+    
+}
+.header-top ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.header-top ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.header-top button{
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 30px;
+    margin: 10px 40px 80px 0;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    
+}
+.content img{
+    padding: 0px 0px 0px 10px;
+    width: 1450px;
+    height: 450px;
+}
+.content h1{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 480px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    position: absolute;
+    color: gray;
+    top: 310px;
+    left: 555px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content button{
+    position: absolute;
+    color: black;
+    top: 380px;
+    left: 690px;
+    background-color: white;
+    width: 120px;
+    height: 40px;
+}
+.down p{
+    position: absolute;
+    left: 150px;
+    bottom: -20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
