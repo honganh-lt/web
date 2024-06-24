@@ -57,3 +57,46 @@ header div{
     color: #ac1313;
 }
 
+.hero-section{
+    height: 100vh;
+    color: rgba(0, 0, 0, 0);
+    background-image: url(/pompeo/nền.jpg);
+    background-repeat: repeat,no-repeat;
+    align-items: center;
+    padding-top: 5%;
+    display: flex;
+}
+.hero-div h1{
+    color: #ac1313;
+
+}
+.hero-div p{
+    color: #000;
+}
+.hero-div h2{
+    color: #6c6c6c;
+}
+.left-block.hero{
+    flex-direction: row;
+    align-items: center;
+}
+.left-block{
+    text-align: left;
+    display: flex;
+}
+
+.hero-image-div{
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+.hero-image{
+    width: 1000px;
+    height: 500px;
+    background-image: url(/pompeo/nền\ 1.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    margin-left: -196px;
+}
