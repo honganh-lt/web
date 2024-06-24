@@ -1,0 +1,59 @@
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.brand{
+    margin-top: -4px;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.menu{
+   margin: 0;
+   padding: 0;
+}
+.menu li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-bottom: 0px;
+}
+.menu li a{
+    text-decoration: none;
+    font-family:  "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6c6c6c;
+}
+.image-4{
+    position: absolute;
+    left: -30px;
+    bottom: -5px;
+    color: #6c6c6c;
+}
+.menu li:hover a{
+    color: #000;
+}
+.menu li:first-child a{
+    color: #ac1313;
+}
+
