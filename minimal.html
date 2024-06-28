@@ -7,36 +7,41 @@
     <link rel="stylesheet" href="minimal.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <a href="#" class="logo">
-                <img src="/logominimal1.png" alt="minimal">
-                <h1>Minimal</h1>
-            </a>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">process</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="d-flex">
+                <a href="#" class="logo">
+                    <img src="/minimal-img/logominimal1.png" alt="minimal">
+                    <h1>Minimal</h1>
+                </a>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">process</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <div class="banner">
-        <div class="banner-wrapper">
-            <h1>making brand stand out
-                <br>
-                IS OUR OBSESSION
-            </h1>
-            <div class="divider"></div>
-            <p>Let us help your brand stand out.</p>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-main-heading">
+                <h1>making brand stand out
+                    <br>
+                    IS OUR OBSESSION
+                </h1>
+                <div class="divider"></div>
+                <p>Let us help your brand stand out.</p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <div class="about-section">
-        <img src="/minimal2.png" alt="" >
+        <img src="/minimal-img/minimal2.png" alt="" >
         <div class="section">
             <p>Minimalist is a full-service digital creative agency located in Ontorio Canada. We focus on design, consulting, technology, and photography. We’ve been building unique digital products, platforms, and experiences for the past 6 years. Let us help your company grow.</p>
             <a href="#">Get in Touch</a>
@@ -44,195 +49,189 @@
     </div>
 
 
-    <div class="process">
-        <div class="process-container">
-            <h2>How we make brands thrive</h2>
-            <div class="divider-grey"></div>
-
-            <div class="row">
-                <div class="row-wrapper1">
-                    <img src="/minimal3.png" alt="1">
-                    <h3>SET a target</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
-                </div>
-            </div>   
-            <div class="row">
-                <div class="row-wrapper2">
-                    <img src="minimal4.png" alt="2">
-                    <h3>DESIGN A SOLUTION</h3>
-                    <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="row-wrapper3">
-                    <img src="/minimal5.png" alt="3">
-                    <h3>TRACK THE PROGRESS</h3>
-                    <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="projects">
-        <div class="projects-wrapper">
-            <h4>recent projects</h4>
-            <div class="divider-grey"></div>
-            
-            <div class="about-row">
-
+    <section class="process">
+        <div class="container">
+                <h2 class="process-top">How we make brands thrive</h2>
+                <div class="divider-grey"></div>
+            <div class="d-flex flex-end">
                 <div class="row">
-                    <a href="#">
-                        <img src="/minimal6.jpg" alt="">
-                        <h3>woods</h3>
-                        <div>Photography</div>
-                    </a>
+                    <div class="row-wrapper1">
+                        <img src="/minimal-img/minimal5.png" alt="1">
+                    </div>
+                        <div class=" text-row-wrapper1">
+                            <h3>SET a target</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
+                        </div>
+                </div>   
+                <div class="row">
+                    <div class="row-wrapper1">
+                        <img src="/minimal-img/minimal3.png" alt="2">
+                    </div>
+                        <div class="text-row-wrapper1">
+                            <h3>DESIGN A SOLUTION</h3>
+                        <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  </p>
+                        </div>
                 </div>
                 <div class="row">
-                    <a href="#">
-                        <img src="/minimal7.jpeg" alt="">
-                        <h3>path</h3>
-                        <div>Website . Photography</div>
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                        <img src="/minimal8.jpg" alt="">
-                        <h3>daskness</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="about-row">
-                <div class="row">
-                    <a href="#">
-                        <img src="minimal9.jpeg" alt="">
-                        <h3>waves</h3>
-                        <div>Photography</div>
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                        <img src="/minimal10.jpeg" alt="">
-                        <h3>drop</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                        <img src="minimal11.jpg" alt="">
-                        <h3>ocean</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="about-row">
-                <div class="row">
-                    <a href="#">
-                        <img src="minimal12.jpeg" alt="">
-                        <h3>town</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                        <img src="minimal13.jpeg" alt="">
-                        <h3>mountain</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#">
-                        <img src="/minimal14.jpeg" alt="">
-                        <h3>camera</h3>
-                        <div>Website</div>
-                    </a>
-                </div>
-            </div>
-
-
-        </div>
-    </div> 
-
-    <div class="team-section">
-        <div class="team-container">
-            <h2>our team</h2>
-            <div class="divider-grey"></div>
-            
-        <div class="team">
-            <div class="team-row">
-                <div class="team-member">
-                    <img src="/minimal15.png" alt="">
-                    <h3>Ron Swanson</h3>
-                    <div>Founder</div>
-                    <div class="team-icon">
-                        <a href="#">
-                            <img src="/minimal19.svg" alt="">                          
-                        </a>
-                        <a href="#" >
-                            <img src="minimal20.svg" alt="">                         
-                        </a>
-                        <a href="#" >
-                            <img src="/minimal21.svg" alt="">
-                        </a>
+                    <div class="row-wrapper1">
+                        <img src="/minimal-img/minimal4.png" alt="3">
+                    </div>
+                    <div class="text-row-wrapper1">
+                        <h3>TRACK THE PROGRESS</h3>
+                        <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                     </div>
                 </div>
             </div>
+         </div>
+    </section>
 
-            <div class="team-row">
-                <div class="team-member">
-                    <img src="/minimal16.png" alt="">
-                    <h3>Ron Swanson</h3>
-                    <div>Founder</div>
-                    <div class="team-icon">
-                        <a href="#">
-                            <img src="/minimal19.svg" alt="">
-                            <img src="minimal20.svg" alt="">
-                            <img src="/minimal21.svg" alt="">
-                        </a>
-                    </div>
-                </div>
+    <section class="projects">
+        <div class="container">
+            <div class="projects-wrapper">
+                <h4>recent projects</h4>
+                <div class="divider-grey"></div>
             </div>
-            <div class="team-row">
-                <div class="team-member">
-                    <img src="/minimal17.png" alt="">
-                    <h3>Ron Swanson</h3>
-                    <div>Founder</div>
-                    <div class="team-icon">
-                        <a href="#">
-                            <img src="/minimal23.svg" alt="">
-                            <img src="/minimal19.svg" alt="">
-                            <img src="/minimal24.svg" alt="">
-                            <img src="minimal25.svg" alt="">
-                            <img src="/minimal21.svg" alt="">
-                        </a>
+                <div class="w-dyn-list">
+                    <div class=" x-flex flex-between"><!--Box-san-pham-->
+                        <div class=" w-25 box-img ">
+                                <img class="w-100 img" src="/minimal-img/minimal6.jpg" alt="">
+                                <div class="title">
+                                    <a href="#" class="">  woods <br> <span>Photography</span></a>
+                                </div>
+                        </div>
+                        <div class=" w-25 box-img">
+                                <img class="w-100 img" src="/minimal-img/minimal7.jpeg" alt="">
+                                <div class="title">
+                                    <a href="#" class="">  Path <br><span>Website.Photography</span></a>
+                                </div>
+                        </div>
+                        <div class=" w-25 box-img">
+                                <img class="w-100 img" src="/minimal-img/minimal8.jpg" alt="">
+                                <div class="title">
+                                    <a href="#" class="">  Darkness <br><span>Website</span></a>
+                                </div>
+                        </div>
                     </div>
-                </div>
+
+                    <div class=" x-flex flex-between"><!--Box-san-pham-->
+                        <div class=" w-25 box-img ">
+                            <img class="w-100 img" src="/minimal-img/minimal9.jpeg" alt="">
+                            <div class="title">
+                                <a href="#" class="">  Waves <br> <span>Photography</span></a>
+                            </div>
+                        </div>
+                        <div class=" w-25 box-img">
+                            <img class="w-100 img" src="/minimal-img/minimal10.jpeg" alt="">
+                            <div class="title">
+                                <a href="#" class="">  Drops  <br><span>Website</span></a>
+                            </div>
+                        </div>
+                        <div class=" w-25 box-img">
+                            <img class="w-100 img" src="/minimal-img/minimal11.jpg" alt="">
+                            <div class="title">
+                                <a href="#" class="">Ocean <br> <span>Website</span></a>
+                            </div>
+                        </div>
+                    </div><!---->
+            
+                    <div class=" x-flex flex-between"><!--Box-san-pham-->
+                    <div class=" w-25 box-img ">
+                        <img class="w-100 img" src="/minimal-img/minimal12.jpeg" alt="">
+                        <div class="title">
+                            <a href="#" class="">  Town <span>Website</span></a>
+                        </div>
+                    </div>
+                    <div class=" w-25 box-img">
+                        <img class="w-100 img" src="/minimal-img/minimal13.jpeg" alt="">
+                        <div class="title">
+                            <a href="#" class="">  Mountain <br> <span>Website</span></a>
+                        </div>
+                    </div>
+                    <div class=" w-25 box-img">
+                        <img class="w-100 img" src="/minimal-img/minimal14.jpeg" alt="">
+                        <div class="title">
+                            <a href="#" class="">  Camera <span>Website</span></a>
+                        </div>
+                    </div>
+                    </div>
+
+    
+        
+            </div>
+        </div> 
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <div class="text-top">
+                <h2>our team</h2>
+                <div class="divider-grey"></div>
             </div>
             
-
-            <div class="team-row">
-                <div class="team-member">
-                    <img src="minimal18.png" alt="">
-                    <h3>Ron Swanson</h3>
-                    <div>Founder</div>
-                    <div class="team-icon">
-                        <a href="#">
-                            <img src="/minimal22.svg" alt="">
-                            <img src="/minimal19.svg" alt="">
-                            <img src="/minimal21.svg" alt="">
-                        </a>
+            <div class="w-dyn-list">
+                <div class=" x-flex flex-between"><!--Box-san-pham-->
+                    <div class=" w-26 box-team">
+                        <img class="w-100 img img-team" src="/minimal-img/minimal15.png" alt="">
+                        <div class="title">
+                            <a href="#" class=""> ROn swanson <br><span>Founder</span></a>
+                        </div>
+                        <div class="team-icon">
+                            <a href="#">
+                                <img src="/minimal-img/minimal19.svg" alt="" class="icon-bird">
+                                <img src="/minimal-img/minimal20.svg" alt="" class="icon-in">
+                                <img src="/minimal-img/minimal21.svg" alt="" class="icon-box">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" w-26 box-team ">
+                        <img class="w-100 img img-team" src="/minimal-img/minimal16.png" alt="">
+                        <div class="title">
+                            <a href="#" class=""> julia depish <br><span>Marketing</span></a>
+                        </div>
+                        <div class="team-icon">
+                            <a href="#">
+                                <img src="/minimal-img/minimal19.svg" alt="" class="icon-bird">
+                                <img src="/minimal-img/minimal20.svg" alt="" class="icon-in">
+                                <img src="/minimal-img/minimal21.svg" alt="" class="icon-box">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" w-26 box-team ">
+                        <img class="w-100 img img-team" src="/minimal-img/minimal17.png" alt="">
+                        <div class="title">
+                            <a href="#" class=""> danny devry <br><span>designer</span></a>
+                        </div>
+                        <div class="team-icon">
+                            <a href="#">
+                                <img src="/minimal-img/minimal23.svg" alt="" class="icon-bird">
+                                <img src="/minimal-img/minimal19.svg" alt="" class="icon-in">
+                                <img src="/minimal-img/minimal24.svg" alt="" class="icon-box">
+                                <img src="/minimal-img/minimal25.svg" alt="" class="icon-box">
+                                <img src="/minimal-img/minimal21.svg" alt="" class="icon-box">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" w-26 box-team ">
+                        <img class="w-100 img img-team" src="/minimal-img/minimal18.png" alt="">
+                        <div class="title">
+                            <a href="#" class="">lisa smith <br><span>developer</span></a>
+                        </div>
+                        <div class="team-icon">
+                            <a href="#">
+                                <img src="/minimal-img/minimal22.svg" alt="" class="icon-bird">
+                                <img src="/minimal-img/minimal19.svg" alt="" class="icon-in">
+                                <img src="/minimal-img/minimal21.svg" alt="" class="icon-box">
+                            </a>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
+    </section>
 
-        </div>
-    </div>
-
+    <!--
     <div class="testimonials">
         <div class="testimonials-container">
             <img src="/minimal26.svg" alt="">
@@ -273,7 +272,76 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
+
+    <section class="contact">
+        <div class="container">
+                <h2 class="text-contact-top">LET’S GET IN TOUCH</h2>
+                <div class="divider-grey"></div>
+            <div class="w-list-contact">
+                <div class=" x-flex flex-between"><!--Box-san-pham-->
+                    <div class=" w-26 box-img-icon ">
+                            <img class="w-100 img img-contact" src="/minimal-img/minimal32.jpg" alt="">
+                            <div class="title-contact">
+                                <h3>MEET US IN PERSON</h3>
+                                <p>8776 Juniper Street
+                                   <br> Unit #204
+                                    <br>Merriweather, Ontorio
+                                    <br>Canada</p>
+                            </div>
+                    </div>
+                    <div class=" w-26 box-img-icon">
+                            <img class="w-100 img img-contact" src="/minimal-img/minimal33.jpg" alt="">
+                            <div class="title-contact">
+                                <h3>THE TRADITIONAL WAY</h3>
+                                <p>Email us <br><a href="#">contact@minimal.com</a></p>
+                                <p>Contact form <br><a href="#">Scroll down</a></p>
+                            </div>
+                    </div>
+                    <div class=" w-26 box-img-icon">
+                            <img class="w-100 img img-contact" src="/minimal-img/minimal34.jpeg" alt="">
+                            <div class="title-contact">
+                                <h3>LET’S GET SOCIAL</h3>
+                                <div class="menu-contact">
+                                    <a href="#"><img src="/minimal-img/minimal22.svg" alt="">Facebook</a>
+                                    <a href="#"><img src="/minimal-img/minimal19.svg" alt="">Twitter</a>
+                                    <a href="#"><img src="/minimal-img/minimal20.svg" alt="">Linkdin</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="table">
+                <form action="">
+                        <table  border="0.1" cellspacing="1px" cellpadding="0.1px">
+                            <tr>
+                                <th class="back"><input type="user" name="name" placeholder="Name"></th>
+                            </tr>
+                            <tr>
+                                <th class="gray"><input type="id" name="email" placeholder="Email"></th>
+                            </tr>
+                            <tr>
+                                <th class="back"><input type="budget" name="budget" placeholder="Butget"></th>
+                            </tr>
+                            <tr>
+                                <th class="gray"><textarea name="describe" id="describe" cols="30" rows="5">Describe your project...</textarea></th>
+                            </tr>
+                            <tr>
+                                <th class="submit-input"><input type="submit" value="Send Message" class="footer-button"></th>
+                            </tr>
+                        </table>
+                    </form>
+                </tbody>
+            </div>
+            <img src="/minimal-img/logominimal1.png" alt="" class="footer-logo">
+            <div class="footer-end"><p>Minimal Template made in Webflow. All rights reserved.</p></div>
+        </div>
+    </section>
 </body>
 
 </html>
